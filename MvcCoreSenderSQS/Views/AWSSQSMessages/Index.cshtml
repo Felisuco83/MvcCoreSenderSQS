@@ -1,0 +1,17 @@
+﻿<h1 style="color:blue">
+    AWS SQS Service Queue
+</h1>
+
+<form method="post">
+    <label>Asunto: </label>
+    <input type="text" name="Asunto" class="form-control" /><br />
+    <label>Email: </label>
+    <input type="text" name="Email" class="form-control" /><br />
+    <label>Mensaje: </label>
+    <textarea name="Mensaje" class="form-control"></textarea><br />
+    <button type="submit" class="btn btn-success">Enviar Mensaje SQS</button>
+</form>
+
+<h1 style="color:red">
+    @ViewBag.Mensaje
+</h1>
